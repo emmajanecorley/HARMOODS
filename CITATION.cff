@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "HARMOODS: Harmonised Depression Score Converter"
+message: "If you use this software, please cite the accompanying manuscript."
+type: software
+authors:
+  - given-names: Emma
+    family-names: Corley
+    affiliation: "University of Galway"
+    email: emma.corley@universityofgalway.ie
+repository-code: "https://github.com/emmajanecorley/harmoods"
+url: "https://emmacorley.shinyapps.io/irt_app/"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Emma
+      family-names: Corley
+  title: "Harmonizing depression severity scores: an item response theory investigation of brain structure from the ENIGMA Bipolar and Major Depressive Disorder Consortia"
+  year: 2026
+  journal: "(In preparation)"

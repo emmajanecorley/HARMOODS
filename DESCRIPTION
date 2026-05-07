@@ -1,0 +1,35 @@
+Package: harmoods
+Title: Harmonised Depression Score Converter
+Version: 1.0.0
+Authors@R:
+    person("Emma", "Corley", email = "emma.corley@universityofgalway.ie",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: A Shiny application that harmonises item-level responses from the
+    Hamilton Depression Rating Scale (HDRS), Beck Depression Inventory (BDI),
+    and Montgomery-Åsberg Depression Rating Scale (MADRS) onto a common latent
+    severity metric using item response theory (IRT) graded response models.
+    Calibration was performed in a multisite ENIGMA Mood Disorders cohort
+    (n=11,171; 47 international sites) and provides scores for five symptom
+    domains plus an overall depression severity general factor.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    shiny (>= 1.7.0),
+    bslib,
+    readr,
+    readxl,
+    writexl,
+    dplyr,
+    tidyr,
+    tibble,
+    purrr,
+    stringr,
+    ggplot2
+Suggests:
+    plotly,
+    DT,
+    shinyWidgets,
+    bsicons
+URL: https://github.com/emmajanecorley/harmoods, https://emmacorley.shinyapps.io/irt_app/
+BugReports: https://github.com/emmajanecorley/harmoods/issues
